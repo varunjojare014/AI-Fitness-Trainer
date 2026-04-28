@@ -1,6 +1,11 @@
 # 🏋️ AI Fitness Trainer
 
+## 🎥 Demo
+
 A real-time AI-based fitness trainer that uses computer vision to analyze posture and provide feedback during workouts.
+Video link - https://drive.google.com/file/d/1apQ9uKV1mIxJsC2KKvby4B5p-V8ChRS0/view?usp=sharing
+
+https://github.com/user-attachments/assets/89c4e8eb-c2ce-4382-8f2d-1c431206a848
 
 ## 🚀 Features
 (1) Real-time pose detection using MediaPipe  
@@ -16,9 +21,3 @@ A real-time AI-based fitness trainer that uses computer vision to analyze postur
 
 ## ⚙️ How It Works
 Captures video → detects body landmarks → analyzes posture → provides real-time feedback.
-
-## 🎥 Video Link 
-
-https://drive.google.com/file/d/1apQ9uKV1mIxJsC2KKvby4B5p-V8ChRS0/view?usp=sharing
-
-https://github.com/user-attachments/assets/89c4e8eb-c2ce-4382-8f2d-1c431206a848
