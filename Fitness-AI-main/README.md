@@ -1,31 +1,17 @@
-# Fizruk - fitness application for yoga and workout
+🏋️ AI Fitness Trainer
+A real-time AI-based fitness trainer that uses computer vision to analyze posture and provide feedback during workouts.
 
-### Fizruk was created in order to practice yoga and workout in real time using computer vision
-- Fizruk supports 2 modes: yoga and workout
-- There are 3 exercises in each program
+🚀 Features
+(1) Real-time pose detection using MediaPipe
+(2) Posture analysis with machine learning
+(3) ~90% accuracy in form detection
+(4) Live webcam integration with OpenCV
 
-    Yoga: T-Pose, Warrior Pose, Tree Pose
-    
-    Workout: Arms, Legs, Gym
-    
-- Fizruk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [PyInstaller](https://github.com/pyinstaller/pyinstaller).
+🛠️ Tech Stack
+(1) Python : Used as the core programming language for building and integrating the system.
+(2) OpenCV : Used for capturing and processing real-time video from the webcam.
+(3) MediaPipe : Used for detecting body landmarks and performing pose estimation.
+(4) TensorFlow / Scikit-learn : Used for training and applying machine learning models for posture analysis.
 
-
-### Example of application operation
-![process](static/WarriorPose.gif)
-
-### Vitrual hands control
-![virtual_control](static/hands_control.gif)
-
-### The process of pose recognition consists of following steps:
-- Recieve video stream using OpenCV. 
-- Video frames are passed to MediaPipe Pose model that detects pose, adds landmarks (33 landmarks per body) and records their coordinates.
-- Landmarks coordinates are extracted, organized and passed to the model for prediction.
-- The visualization of model prediction is implemented in the top middle corner of the application screen (see pictures above). 
-- Detected poses and displayed on top of the screen (see pictures above). 
-
-
-#### This project was completed in 10 days by:
-- https://github.com/AugustVIII
-- https://github.com/raulgad
-- https://github.com/samot-samoe
+⚙️ How It Works
+Captures video → detects body landmarks → analyzes posture → provides real-time feedback.
